@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="js/jquery.tools.min.js"></script>
+    <script src="js/photos.js"></script>
+    <title>TwoPercentRockStar</title>
+  </head>
+  <body>
+    <script type="text/javascript" src="js/header.js"></script>
+  	<script>
+  		$("#photosLink:link").css({"color": "yellow","background-color": "#a0a0a0", "text-decoration":"underline"});
+  	</script>
+
+    <div class="subheader_div">
+      <h2 class="subheader_h2">Photos</h2>
+    </div>
+
+    <div class="photo_hide">
+      <div id="1">
+        <p>Group 1 (click to hide)</p>
+        <div class="shown">
+          <a href="images/HD.jpg"><img src="images/HD.jpg" alt="HD" width="300" height="300"></a>
+          <a href="images/2.jpg"><img src="images/2.jpg" alt="2" width="300" height="300"></a>
+          <a href="images/3.jpg"><img src="images/3.jpg" alt="3" width="300" height="300"></a>
+          <a href="images/4.jpg"><img src="images/4.jpg" alt="4" width="300" height="300"></a>
+        </div>
+      </div>
+      <div id="2">
+        <p>Group 2 (click to show)</p>
+        <div class="hide">
+          <a href="images/1.jpg"><img src="images/1.jpg" alt="1" width="300" height="300"></a>
+          <a href="images/HD.jpg"><img src="images/HD.jpg" alt="HD" width="300" height="300"></a>
+          <a href="images/3.jpg"><img src="images/3.jpg" alt="3" width="300" height="300"></a>
+          <a href="images/4.jpg"><img src="images/4.jpg" alt="4" width="300" height="300"></a>
+        </div>
+      </div>
+      <div id="3">
+        <p>Group 3 (click to show)</p>
+        <div class="hide">
+          <a href="images/1.jpg"><img src="images/1.jpg" alt="1" width="300" height="300"></a>
+          <a href="images/2.jpg"><img src="images/2.jpg" alt="2" width="300" height="300"></a>
+          <a href="images/HD.jpg"><img src="images/HD.jpg" alt="HD" width="300" height="300"></a>
+          <a href="images/4.jpg"><img src="images/4.jpg" alt="4" width="300" height="300"></a>
+        </div>
+      </div>
+      <div id="4">
+        <p>Group 4 (click to show)</p>
+        <div class="hide">
+          <a href="images/1.jpg"><img src="images/1.jpg" alt="1" width="300" height="300"></a>
+          <a href="images/2.jpg"><img src="images/2.jpg" alt="2" width="300" height="300"></a>
+          <a href="images/3.jpg"><img src="images/3.jpg" alt="3" width="300" height="300"></a>
+          <a href="images/HD.jpg"><img src="images/HD.jpg" alt="HD" width="300" height="300"></a>
+          <a href="images/4.jpg"><img src="images/4.jpg" alt="4" width="300" height="300"></a>
+          <a href="images/5.jpg"><img src="images/5.jpg" alt="5" width="300" height="300"></a>
+          <a href="images/6.jpg"><img src="images/6.jpg" alt="6" width="300" height="300"></a>
+          <a href="images/7.jpg"><img src="images/7.jpg" alt="7" width="300" height="300"></a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(".photo_hide .hide").hide();
+    </script>
+
+  </body>
+</html>
