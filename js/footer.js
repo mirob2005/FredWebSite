@@ -1,0 +1,1 @@
+document.write('<p id=footer-bar>Coded by Michael Robertson 2013</p>');

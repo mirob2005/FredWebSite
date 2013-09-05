@@ -18,7 +18,7 @@ body
 
 #header-nav
 {
-	width: 994px;
+	width: 996px;
 	padding: 0px;
 	margin: 0px auto 0px auto;
 }
@@ -27,13 +27,12 @@ body
 {
 	float: left;
 	list-style-type: none;
-	margin: 0px;
 }
 
 .header-nav-links:link, .header-nav-links:visited
 {
 	display: block;
-	width: 122px;
+	width: 146px;
 	font-weight: bold;
 	color: white;
 	background-color: #b0b0b0;
@@ -49,13 +48,19 @@ body
 	text-decoration: underline;
 }
 
-.subheader_div, .social
+.subheader_div, .social, #footer-bar
 {
 	display: block;
 	width: 974px;
 	padding: 10px;
 	margin: 20px auto 0px auto;
 	background-color: #7388ac;
+}
+#footer-bar
+{
+	color: white;
+	font-size: 1em;
+	text-align: center;
 }
 .social_link
 {
@@ -71,6 +76,15 @@ body
 	font-size: 3em;
 	padding: 10px;
 	margin: 0px auto 0px auto;
+}
+.subheader_div>p
+{
+	display: inline-block;
+	width: 694px;
+	margin: auto 150px auto 150px;
+	color:white;
+	font-size: 1.5em;
+	text-align: center;
 }
 
 .rotating_content>nav, .rotating_content>nav>ol
@@ -169,7 +183,7 @@ body
 	/*max-height: 315px;*/
 	font-size: 1.5em;
 }
-.photo_hide, .video_back, .song_back
+.photo_hide, .video_back, .song_back, .post_back
 {
 	display: block;
 	width: 974px;
@@ -224,4 +238,27 @@ body
 	display: inline-block;
 	position: relative;
 	top: -70px;
+}
+.post 
+{
+	display: block;
+	position: relative;
+	margin-bottom: 10px;
+	border: 5px solid black;
+}
+.post_header
+{
+	padding: 0px 5px 0px 5px;
+	font-size: 2em;
+}
+.post_date
+{
+	margin-left: 10px;
+	font-size: 1.25em;
+}
+.post_data
+{
+	font-size: 1.5em;
+	margin-left: 10px;
+	text-indent: 50px;
 }
