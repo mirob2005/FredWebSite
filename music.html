@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="js/jquery.tools.min.js"></script>
+    <script src="js/music.js"></script>
     <title>TwoPercentRockStar</title>
   </head>
   <body>
@@ -16,5 +17,22 @@
       <h2 class="subheader_h2">Music</h2>
     </div>
 
+    <div class="song_back">
+      <div class="song_list">
+        <ul>
+          <li>Liar</li>
+          <li>Horse</li>
+          <li>Horse</li>
+          <li>Liar</li>
+        </ul>
+      </div>
+      <audio controls>
+        <source src="media/Liar.ogg" type="audio/ogg">
+        <source src="media/Liar.mp3" type="audio/mpeg">
+        <source src="media/Liar.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+      <p id="song_title">Liar (now playing)</p>
+    </div>
   </body>
 </html>
